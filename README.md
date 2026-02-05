@@ -146,28 +146,6 @@ MAPTILER_API_KEY=your_maptiler_api_key
 
 This project is deployed on **Vercel** with a MongoDB Atlas database. The `vercel.json` file contains the deployment configuration.
 
-## API Routes
-
-### Campgrounds
-- `GET /campgrounds` - View all campgrounds
-- `GET /campgrounds/new` - Render new campground form
-- `POST /campgrounds` - Create a new campground
-- `GET /campgrounds/:id` - View a specific campground
-- `GET /campgrounds/:id/edit` - Render edit form
-- `PUT /campgrounds/:id` - Update a campground
-- `DELETE /campgrounds/:id` - Delete a campground
-
-### Reviews
-- `POST /campgrounds/:id/reviews` - Create a review
-- `DELETE /campgrounds/:id/reviews/:reviewId` - Delete a review
-
-### Users
-- `GET /register` - Render registration form
-- `POST /register` - Register a new user
-- `GET /login` - Render login form
-- `POST /login` - Login user
-- `GET /logout` - Logout user
-
 ## Security Features
 
 - **Helmet.js** - Sets various HTTP headers for security
@@ -178,10 +156,4 @@ This project is deployed on **Vercel** with a MongoDB Atlas database. The `verce
 - **Input Validation** - Joi schemas validate all user inputs
 - **Authorization** - Only authors can edit/delete their content
 
-## License
-
-ISC
-
----
-
-Made with ❤️ by [Your Name]
+-> by Jaswanth Koppala
